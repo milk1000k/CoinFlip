@@ -1,9 +1,16 @@
 package test;
 
-public class Random {
+import java.util.Scanner;
 
+public class Random {
+	
+	private static Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// you can use standar inputs
+		/*
+		 * int n = scanner.nextInt();
+		 */
+					
 		//Please update n with the properly input
 		int n = 0;
 		System.out.println(randomNumber(n));
